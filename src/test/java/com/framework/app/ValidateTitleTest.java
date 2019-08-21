@@ -30,7 +30,7 @@ public class ValidateTitleTest extends Base{
 		
 		LandingObjects lp= new LandingObjects(driver);
 	  
-		Assert.assertEquals(lp.needTitle().getText(),"FEATURED" );
+		Assert.assertEquals(lp.needTitle().getText(),"FEATURED COURSES" );
 		log.debug("FEATURED COURSES title exist");
 	 
 

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="75888" started-at="2019-08-19T19:13:52Z" finished-at="2019-08-19T19:15:08Z">
+  <suite name="Suite" duration-ms="56543" started-at="2019-08-21T16:09:57Z" finished-at="2019-08-21T16:10:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="75888" started-at="2019-08-19T19:13:52Z" finished-at="2019-08-19T19:15:08Z">
+    <test name="Test" duration-ms="56543" started-at="2019-08-21T16:09:57Z" finished-at="2019-08-21T16:10:54Z">
       <class name="com.framework.app.ValidateTitleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.app.ValidateTitleTest@124c278f]" name="setUp" is-config="true" duration-ms="15300" started-at="2019-08-19T19:14:12Z" finished-at="2019-08-19T19:14:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.app.ValidateTitleTest@124c278f]" name="setUp" is-config="true" duration-ms="11030" started-at="2019-08-21T16:10:09Z" finished-at="2019-08-21T16:10:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="pageBaseNavigation()[pri:0, instance:com.framework.app.ValidateTitleTest@124c278f]" name="pageBaseNavigation" duration-ms="49" started-at="2019-08-19T19:14:27Z" finished-at="2019-08-19T19:14:27Z">
+        <test-method status="FAIL" signature="pageBaseNavigation()[pri:0, instance:com.framework.app.ValidateTitleTest@124c278f]" name="pageBaseNavigation" duration-ms="19" started-at="2019-08-21T16:10:20Z" finished-at="2019-08-21T16:10:20Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED] but found [FEATURED COURSES]]]>
@@ -60,17 +60,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageBaseNavigation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.framework.app.ValidateTitleTest@124c278f]" name="TearDown" is-config="true" duration-ms="881" started-at="2019-08-19T19:14:28Z" finished-at="2019-08-19T19:14:29Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.framework.app.ValidateTitleTest@124c278f]" name="TearDown" is-config="true" duration-ms="713" started-at="2019-08-21T16:10:20Z" finished-at="2019-08-21T16:10:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.framework.app.ValidateTitleTest -->
       <class name="com.framework.app.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="setUp" is-config="true" duration-ms="14912" started-at="2019-08-19T19:14:29Z" finished-at="2019-08-19T19:14:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="setUp" is-config="true" duration-ms="10215" started-at="2019-08-21T16:10:21Z" finished-at="2019-08-21T16:10:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pageBaseNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="pageBaseNavigation" duration-ms="5517" started-at="2019-08-19T19:14:44Z" data-provider="getData" finished-at="2019-08-19T19:14:49Z">
+        <test-method status="PASS" signature="pageBaseNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="pageBaseNavigation" duration-ms="5332" started-at="2019-08-21T16:10:31Z" data-provider="getData" finished-at="2019-08-21T16:10:36Z">
           <params>
             <param index="0">
               <value>
@@ -86,15 +86,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageBaseNavigation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="TearDown" is-config="true" duration-ms="925" started-at="2019-08-19T19:14:49Z" finished-at="2019-08-19T19:14:50Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="TearDown" is-config="true" duration-ms="781" started-at="2019-08-21T16:10:36Z" finished-at="2019-08-21T16:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="setUp" is-config="true" duration-ms="12293" started-at="2019-08-19T19:14:50Z" finished-at="2019-08-19T19:15:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="setUp" is-config="true" duration-ms="11014" started-at="2019-08-21T16:10:37Z" finished-at="2019-08-21T16:10:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pageBaseNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="pageBaseNavigation" duration-ms="4936" started-at="2019-08-19T19:15:02Z" data-provider="getData" finished-at="2019-08-19T19:15:07Z">
+        <test-method status="PASS" signature="pageBaseNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="pageBaseNavigation" duration-ms="4828" started-at="2019-08-21T16:10:48Z" data-provider="getData" finished-at="2019-08-21T16:10:53Z">
           <params>
             <param index="0">
               <value>
@@ -110,21 +110,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageBaseNavigation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="TearDown" is-config="true" duration-ms="869" started-at="2019-08-19T19:15:07Z" finished-at="2019-08-19T19:15:08Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.framework.app.HomePageTest@15b204a1]" name="TearDown" is-config="true" duration-ms="651" started-at="2019-08-21T16:10:53Z" finished-at="2019-08-21T16:10:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.framework.app.HomePageTest -->
       <class name="com.framework.app.ValidateMenuItemTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.app.ValidateMenuItemTest@61dd025]" name="setUp" is-config="true" duration-ms="18634" started-at="2019-08-19T19:13:52Z" finished-at="2019-08-19T19:14:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.app.ValidateMenuItemTest@61dd025]" name="setUp" is-config="true" duration-ms="11076" started-at="2019-08-21T16:09:57Z" finished-at="2019-08-21T16:10:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pageBaseNavigation()[pri:0, instance:com.framework.app.ValidateMenuItemTest@61dd025]" name="pageBaseNavigation" duration-ms="125" started-at="2019-08-19T19:14:11Z" finished-at="2019-08-19T19:14:11Z">
+        <test-method status="PASS" signature="pageBaseNavigation()[pri:0, instance:com.framework.app.ValidateMenuItemTest@61dd025]" name="pageBaseNavigation" duration-ms="50" started-at="2019-08-21T16:10:08Z" finished-at="2019-08-21T16:10:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageBaseNavigation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.framework.app.ValidateMenuItemTest@61dd025]" name="TearDown" is-config="true" duration-ms="925" started-at="2019-08-19T19:14:11Z" finished-at="2019-08-19T19:14:12Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.framework.app.ValidateMenuItemTest@61dd025]" name="TearDown" is-config="true" duration-ms="613" started-at="2019-08-21T16:10:08Z" finished-at="2019-08-21T16:10:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
