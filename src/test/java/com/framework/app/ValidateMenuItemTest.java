@@ -15,7 +15,8 @@ import pageobjects.LandingObjects;
 import resources.Base;
 
 public class ValidateMenuItemTest extends Base{
-	public static Logger log=LogManager.getLogger(Base.class.getName());
+	
+	 
 	@BeforeMethod
 	public void setUp() throws IOException {
 		driver=initializeDriver();
@@ -24,13 +25,15 @@ public class ValidateMenuItemTest extends Base{
 			
 	}
 	@Test
-	public void pageBaseNavigation() throws IOException {
+	public void validatemenuItem() throws IOException {
 		
+		 Logger log=LogManager.getLogger(ValidateMenuItemTest.class.getName());
+		 log.info("Validating if menue item contact is diplayed");
 		LandingObjects lp= new LandingObjects(driver);
-	    // Assert.assertTrue(lp.getmenuItem().isDisplayed());
+	  
 	    
 	Assert.assertTrue(lp.getmenuItem().isDisplayed());
-	log.error("Does menu item 'contact' exist?");
+	
 
 }
 	

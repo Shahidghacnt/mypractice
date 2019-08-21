@@ -1,7 +1,5 @@
 package com.framework.app;
 
-
-
 import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
@@ -17,7 +15,7 @@ import pageobjects.LandingObjects;
 import resources.Base;
 
 public class ValidateTitleTest extends Base{
-	public static Logger log=LogManager.getLogger(Base.class.getName());
+	
 	@BeforeMethod
 	public void setUp() throws IOException {
 		driver=initializeDriver();
@@ -26,13 +24,13 @@ public class ValidateTitleTest extends Base{
 			
 	}
 	@Test
-	public void pageBaseNavigation() throws IOException {
-		
+	public void validatetitlefeaturedCourse() throws IOException {
+		 Logger log=LogManager.getLogger(ValidateTitleTest.class.getName());
+		 log.debug("Validating if the FEATURED COURSE is in the title");
+		 log.error("Validating if the FEATURED COURSE is in the title:should not throw error");
 		LandingObjects lp= new LandingObjects(driver);
 	  
 		Assert.assertEquals(lp.needTitle().getText(),"FEATURED COURSES" );
-		log.debug("FEATURED COURSES title exist");
-	 
 
 }
 	@AfterMethod

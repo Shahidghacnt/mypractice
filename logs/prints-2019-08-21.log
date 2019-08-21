@@ -1,0 +1,6 @@
+15:50:44.168 [main] INFO  com.framework.app.ValidateMenuItemTest - Clicking the sign in
+15:50:44.232 [main] INFO  com.framework.app.ValidateMenuItemTest - Now inputting email in the email text box
+15:50:44.275 [main] INFO  com.framework.app.ValidateMenuItemTest - Now inputting password in the email text box
+15:50:45.654 [main] INFO  com.framework.app.ValidateMenuItemTest - Now clicking login button
+15:51:05.140 [main] INFO  com.framework.app.ValidateMenuItemTest - Clicking the sign in
+15:51:05.172 [main] INFO  com.framework.app.ValidateMenuItemTest - Now inputting email in the email text box

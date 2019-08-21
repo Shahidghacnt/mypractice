@@ -19,25 +19,31 @@ import resources.Base;
 
 
 public class HomePageTest extends Base{
-	public static Logger log=LogManager.getLogger(Base.class.getName());
-
+	
+	
 @BeforeMethod
 public void setUp() throws IOException {
 	driver=initializeDriver();
-	//	driver.get("http://www.qaclickacademy.com");
+		driver.get("http://www.qaclickacademy.com");
 		driver.get(prop.getProperty("url"));
 		
 }
 	@Test(dataProvider="getData")
 	public void pageBaseNavigation(String username, String password) throws IOException {
-	
+		 Logger log=LogManager.getLogger(ValidateMenuItemTest.class.getName());
+		
+		 
 		LandingObjects lp= new LandingObjects(driver);
 		lp.getsignIn().click();
+		 log.info("Clicking the sign in");
 		LoginObjects lo=new LoginObjects(driver);
 		lo.getEmail().sendKeys(username);
+		 log.info("Now inputting email in the email text box");
 		lo.getPassowrd().sendKeys(password);
+		 log.info("Now inputting password in the email text box");
 		lo.getButton().click();
-		log.info("Login has been done");
+		 log.info("Now clicking login button");
+	
 	}
 	@AfterMethod
 	public void TearDown() {

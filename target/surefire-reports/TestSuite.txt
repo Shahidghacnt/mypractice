@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.917 s <<< FAILURE! - in TestSuite
-pageBaseNavigation(com.framework.app.ValidateTitleTest)  Time elapsed: 0.225 s  <<< FAILURE!
-java.lang.AssertionError: expected [FEATURED] but found [FEATURED COURSES]
-	at com.framework.app.ValidateTitleTest.pageBaseNavigation(ValidateTitleTest.java:33)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.534 s - in TestSuite
